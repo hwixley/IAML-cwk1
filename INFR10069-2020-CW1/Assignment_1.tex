@@ -135,11 +135,12 @@ For this part, you should use the sklearn implementation of \href{https://scikit
 \large{\textbf{\underline{Fitting a linear model to predict exam\_score from}}}\\
 \large{\textbf{\underline{revision\_time}}}\\
 \\
+\\
+$y\textsubscript{i} = \phi(x\textsubscript{i})w$\\
+Thus,  $w = \frac{y\textsubscript{i}}{\phi(x\textsubscript{i})} = \frac{y\textsubscript{i}}{[1,x\textsubscript{i}]} = [\frac{y_i}{1},\frac{y_i}{x_i}]$\\
+\\
 \normalsize{
-\\
-$\mu\textsubscript{w} = \frac{1}{n}* (\sum_{i=0}^{49}  \frac{y\textsubscript{i}}{x\textsubscript{i}}) = 3.0583617694740415$\\
-\\
-\textbf{Linear model:}\\
+\textbf{Linear model ($w$):}\\
 Coefficient = 1.44114091\\
 Intercept = 17.89768025835017\\
 \\
