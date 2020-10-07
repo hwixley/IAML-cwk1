@@ -135,19 +135,22 @@ For this part, you should use the sklearn implementation of \href{https://scikit
 \large{\textbf{\underline{Fitting a linear model to predict exam\_score from}}}\\
 \large{\textbf{\underline{revision\_time}}}\\
 \\
-\\
-$y\textsubscript{i} = \phi(x\textsubscript{i})w$\\
-Thus,  $w = \frac{y\textsubscript{i}}{\phi(x\textsubscript{i})} = \frac{y\textsubscript{i}}{[1,x\textsubscript{i}]} = [\frac{y_i}{1},\frac{y_i}{x_i}]$\\
+%$y\textsubscript{i} = \phi(x\textsubscript{i})w$\\
+%Thus,  $w = \frac{y\textsubscript{i}}{\phi(x\textsubscript{i})} = \frac{y\textsubscript{i}}{[1,x\textsubscript{i}]} = [\frac{y_i}{1},\frac{y_i}{x_i}]$\\
 \\
 \normalsize{
-\textbf{Linear model ($w$):}\\
+\textbf{\underline{Linear model:}}\\
 Coefficient = 1.44114091\\
 Intercept = 17.89768025835017\\
 \\
-\textbf{Regression evaluation metrics:}\\
-Mean squared error = 30.985472614541305\\
-Mean absolute error = 4.246143979155163\\
-$R^{2}$ score = 0.9277934754398822}
+\\
+Therefore:\\
+$\boldsymbol{w} = [17.898, 1.441]$\\
+\\
+\textbf{\underline{Representation of $\boldsymbol{w}$:}}\\
+$\boldsymbol{w_0}$ represents the intercept of the model and thus denotes the minimum estimated possible exam score.\\
+$\boldsymbol{w_1}$ represents the gradient of the model and thus quantifies the direct proportionality between the student's hours of study and their exam score. 
+}
 \end{answerbox}
 
 
@@ -202,7 +205,7 @@ Write out the expression for MSE and list one of its limitations. \\
 \begin{answerbox}{10em}
 $MSE = \sqrt{\frac{1}{n}\sum_{i=1}^{n}(\hat{y_i}-y_i)^2}$\\
 \\
-One of the disadvantages of the MSE metric is that it is very sensitive to outliers. This is evident in the equation where the difference in the predicted and actual value of y\textsubscript{i} is squared.
+One of the disadvantages of the MSE metric is that it is very sensitive to outliers. This is evident in the equation as the error value (difference in the predicted and actual value) of y\textsubscript{i} is squared and the average error value is calculated. This squaring ultimately magnifies large errors and minimizes small errors.
 \end{answerbox}
 
 
@@ -220,8 +223,16 @@ Comment on any differences in their performance.
 }
 
 
-\begin{answerbox}{10em}
-Your Answer Here
+\begin{answerbox}{20em}
+\textbf{\underline{Regression evaluation metrics:}}\\
+\\
+\textbf{sklearn implementation:}\\
+Mean squared error = 30.985472614541305\\
+Mean absolute error = 4.246143979155163\\
+$R^{2}$ score = 0.9277934754398822\\
+\\
+\textbf{closed-form implementation:}\\
+Mean squared error = 
 \end{answerbox}
 
 
