@@ -89,7 +89,7 @@
 \textbf{Data types:} all attribute values of type float64\\
 \\
 \\
-\textbf{\underline{ATTRIBUTES:}}}\\
+\textbf{\underline{2 ATTRIBUTES:}}}\\
 \\
 \fbox{
 \parbox{35em}{
@@ -239,7 +239,8 @@ Comment on any differences in their performance.
 
 
 \begin{answerbox}{20em}
-\large{\textbf{\underline{Implementation evaluation using MSE:}}}\\
+\large{\textbf{\underline{Implementation evaluation using MSE}}}\\
+\\
 \\
 \normalsize{
 MSE\textsubscript{sklearn} = 30.985472614541305\\
@@ -251,11 +252,11 @@ MSE\textsubscript{closed-form} = 30.98547261454129\\
 %$R^{2}$ score = 0.9277934754398822
 \\
 \\
-So...\\
+\textbf{\underline{Differences in performance:}}\\
 \\
-$\therefor MSE\textsubscript{sklearn} = MSE\textsubscript{closed-form}   +   1.4210854715202004 * 10^{-14}$\\
+$MSE\textsubscript{sklearn} = MSE\textsubscript{closed-form}   +   1.4210854715202004 * 10^{-14}$\\
 \\
-This implies our closed-form solution was a tiny bit more accurate than that of the sklearn.
+Given that both of these models were calculated on the exact same dataset, we can see that the solution of our closed-form implementation was a tiny bit more accurate than that of our sklearn implementation.
 }
 \end{answerbox}
 
