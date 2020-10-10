@@ -184,8 +184,18 @@ It should only take a few lines (i.e. <5).\\
 }
 
 
-\begin{answerbox}{40em}
-\includegraphics [width=0.6\textwidth]{images/q1d-code.png}
+\begin{answerbox}{20em}
+\textbf{\underline{Given our analytical solution for calculating $\hat{\mathbf{w}}$:}}\\
+\\
+$\hat{\mathbf{w}} = (\mathbf{\Phi^{T}}\cdot\mathbf{\Phi})^{-1}\cdot\mathbf{\Phi^{T}}\cdot \mathbf{Y}$\\
+\\
+where $(\mathbf{\Phi^{T}}\cdot\mathbf{\Phi})^{-1}\cdot\mathbf{\Phi^{T}}$ is the pseudo-inverse of $\mathbf{\Phi}$
+\\
+\\
+\\
+\textbf{\underline{We can easily transfer this into code:}}\\
+\\
+\includegraphics [width=1\textwidth]{images/q1d-code.png}
 \end{answerbox}
 
 
@@ -229,18 +239,23 @@ Comment on any differences in their performance.
 
 
 \begin{answerbox}{20em}
-\large{\textbf{\underline{Regression evaluation metrics:}}}\\
+\large{\textbf{\underline{Implementation evaluation using MSE:}}}\\
 \\
 \normalsize{
-\textbf{\underline{sklearn implementation:}}\\
-MSE = 30.985472614541305\\
-MAE = 4.246143979155163\\
-$R^{2}$ score = 0.9277934754398822\\
+MSE\textsubscript{sklearn} = 30.985472614541305\\
+%MAE = 4.246143979155163\\
+%$R^{2}$ score = 0.9277934754398822\\
 \\
-\textbf{\underline{closed-form implementation:}}\\
-MSE = 31.00051853334999\\
-MAE = 4.276277000000002\\
-$R^{2}$ score = 0.9277584134119602
+MSE\textsubscript{closed-form} = 30.98547261454129\\
+%MAE = 4.24614397915516\\
+%$R^{2}$ score = 0.9277934754398822
+\\
+\\
+So...\\
+\\
+$MSE\textsubscript{sklearn} = MSE\textsubscript{closed-form}   +   1.4210854715202004 * 10^{-14}$\\
+\\
+This implies our closed-form solution was a tiny bit more accurate than that of the sklearn.
 }
 \end{answerbox}
 
