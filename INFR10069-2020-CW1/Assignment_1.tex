@@ -282,11 +282,15 @@ Describe the resulting plot. Where is its minimum? Is this value to be expected?
 }
 
 
-\begin{answerbox}{35em}
+\begin{answerbox}{48em}
 \includegraphics [width=1\textwidth]{images/q1g-graph.png}\\
 \\
-Minimum MSE = 32.48096161535148
-Where W_1 = 1.3535353535353538
+\\
+This plot seems to take the form of a parabola, where the MSE increases exponentially either side of the global minimum MSE (illustrated by the red point). This shows just how important the decimal accuracy of our $\mathbf{w}$ value really is, as a small difference in this can result in a large difference in accuracy.\\
+\\
+$\mathbf{MSE_{min}} = 32.48096161535148$ ,  where $\mathbf{w_1} = 1.3535353535353538$\\
+\\
+This value of $\mathbf{w_1}$ is expected. We knew it had to be less than that of the optimum found in previous implementations (where $\mathbf{w_1} \approx 1.441$). This is due to the fact that we have set $\mathbf{w_0} = 20$, which is evidently greater than its optimum (where $\mathbf{w_0} \approx 17.898$).
 \end{answerbox}
 
 
