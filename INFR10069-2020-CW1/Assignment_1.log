@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.6)  11 OCT 2020 17:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.6)  11 OCT 2020 19:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1746,10 +1746,15 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 329.
 
+<images/q2a-graph.png, id=214, 389.455pt x 292.09125pt>
+File: images/q2a-graph.png Graphic file (type png)
+<use images/q2a-graph.png>
+Package pdftex.def Info: images/q2a-graph.png  used on input line 333.
+(pdftex.def)             Requested size: 423.94617pt x 317.972pt.
 [9
 
 
-] [10
+ <./images/q2a-graph.png>] [10
 
 ]
 
@@ -2281,10 +2286,10 @@ Package rerunfilecheck Info: File `Assignment_1.out' has not changed.
 (rerunfilecheck)             Checksum: E38EE13468F590430B08C44E68845704;8507.
  ) 
 Here is how much of TeX's memory you used:
- 24142 strings out of 483183
- 488329 string characters out of 5966292
- 778720 words of memory out of 5000000
- 38637 multiletter control sequences out of 15000+600000
+ 24148 strings out of 483183
+ 488461 string characters out of 5966292
+ 778775 words of memory out of 5000000
+ 38642 multiletter control sequences out of 15000+600000
  553361 words of font info for 72 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  67i,12n,105p,1004b,983s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2316,10 +2321,10 @@ re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Assignment_1.pdf (22 pages, 335406 bytes).
+Output written on Assignment_1.pdf (22 pages, 353298 bytes).
 PDF statistics:
- 811 PDF objects out of 1000 (max. 8388607)
+ 813 PDF objects out of 1000 (max. 8388607)
  311 compressed objects within 4 object streams
  48 named destinations out of 1000 (max. 500000)
- 372 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 377 words of extra memory for PDF output out of 10000 (max. 10000000)
 
