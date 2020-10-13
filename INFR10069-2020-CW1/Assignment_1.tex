@@ -98,8 +98,8 @@
 \footnotesize{
 \textbf{Possible data range:}   $0 \leq \mathbf{x\textsubscript{i}} \leq \alpha$ ,  where $\alpha$ represents the available hours of study\\
 \textbf{Dataset data range:}   $2.723 \leq \mathbf{x\textsubscript{i}} \leq 48.011$\\
-\textbf{Mean:}   $\mathbf{\mu\textsubscript{x}} = 22.220019999999998$  \\
-\textbf{Standard deviation:}   $\mathbf{\sigma\textsubscript{x}} = 13.986112431936743$}}}\\
+\textbf{Mean:}   $\mathbf{\mu\textsubscript{x}} \approx 22.22$  \\
+\textbf{Standard deviation:}   $\mathbf{\sigma\textsubscript{x}} \approx 13.99$}}}\\
 \\
 \\
 \fbox{
@@ -109,8 +109,8 @@
 \footnotesize{
 \textbf{Possible data range:}   $0 \leq \mathbf{y\textsubscript{i}} \leq 100$\\
 \textbf{Dataset data range:}   $14.731 \leq \mathbf{y\textsubscript{i}} \leq 94.945$\\
-\textbf{Mean:}   $\mathbf{\mu\textsubscript{y}} = 49.91986$  \\
-\textbf{Standard deviation:}   $\mathbf{\sigma\textsubscript{y}} = 20.92559441626157$}}}
+\textbf{Mean:}   $\mathbf{\mu\textsubscript{y}} \approx 49.92$  \\
+\textbf{Standard deviation:}   $\mathbf{\sigma\textsubscript{y}} \approx 20.93$}}}
 \end{answerbox}
 
 
@@ -244,25 +244,25 @@ Comment on any differences in their performance.
 }
 
 
-\begin{answerbox}{20em}
+\begin{answerbox}{22em}
 \large{\textbf{\underline{Implementation evaluation using MSE}}}\\
 \\
 \\
 \normalsize{
-MSE\textsubscript{sklearn} = 30.985472614541305\\
+$MSE\textsubscript{sklearn} \approx 30.985$\\
 %MAE = 4.246143979155163\\
 %$R^{2}$ score = 0.9277934754398822\\
 \\
-MSE\textsubscript{closed-form} = 30.98547261454129\\
+$MSE\textsubscript{closed-form} \approx 30.985$\\
 %MAE = 4.24614397915516\\
 %$R^{2}$ score = 0.9277934754398822
 \\
 \\
 \textbf{\underline{Differences in performance:}}\\
 \\
-$MSE\textsubscript{sklearn} = MSE\textsubscript{closed-form}   +   1.4210854715202004 * 10^{-14}$\\
+$MSE\textsubscript{sklearn} \approx MSE\textsubscript{closed-form}   +   1.421 * 10^{-14}$\\
 \\
-Given that both of these models were calculated on the exact same dataset, we can see that the solution of our closed-form implementation was a tiny bit more accurate than that of our sklearn implementation.
+The MSEs of these implementations were incredibly close. Given that both of these models were calculated on the exact same dataset, we can see that the solution of our closed-form implementation was a tiny bit more accurate than that of our sklearn implementation.
 }
 \end{answerbox}
 
@@ -288,7 +288,7 @@ Describe the resulting plot. Where is its minimum? Is this value to be expected?
 \\
 This plot seems to take the form of a parabola, where the MSE increases exponentially either side of the global minimum MSE (illustrated by the red point). This shows just how important the decimal accuracy of our $\mathbf{w}$ value really is, as a small difference in this can result in a large difference in accuracy.\\
 \\
-$\mathbf{MSE_{min}} = 32.48096161535148$ ,  where $\mathbf{w_1} = 1.3535353535353538$\\
+$\mathbf{MSE_{min}} \approx 32.481$ ,  where $\mathbf{w_1} \approx 1.354$\\
 \\
 This value of $\mathbf{w_1}$ is expected. We knew it had to be less than that of the optimum found in previous implementations (where $\mathbf{w_1} \approx 1.441$). This is due to the fact that we have set $\mathbf{w_0} = 20$, which is evidently greater than its optimum (where $\mathbf{w_0} \approx 17.898$).
 \end{answerbox}
@@ -363,11 +363,11 @@ Based on these results, which model would you choose?}
 \large{\textbf{\underline{Comparing the M=3 and M=4 polynomial regression models}}}\\
 \\
 \normalsize{
-$MSE_{M=3} = 2.744756719252427$\\
-$MSE_{M=4} = 2.738911179075539$\\
+$MSE_{M=3} \approx 2.745$\\
+$MSE_{M=4} \approx 2.739$\\
 \\
 Therefore:\\
-$MSE_{M=3} = MSE_{M=4} + 0.005845540176887987$\\
+$MSE_{M=3} \approx MSE_{M=4} + 5.846 * 10^{-3}$\\
 \\
 It is therefore evident that the M=4 model performs slightly better than the M=3 model on this given dataset. However we must be wary of overfitting these models to our training data. So before deciding on which model to use it would be useful to test and compare the performance of these models on a large unseen dataset.\\
 \\
@@ -577,8 +577,39 @@ You can set the maximum depth of the decision tree using the \texttt{max\_depth}
 }
 
 
-\begin{answerbox}{20em}
-Your Answer Here
+\begin{answerbox}{39em}
+\large{\textbf{\underline{Evaluating the accuracy of Decision Tree classifiers for}}}\\
+\large{\textbf{\underline{different values of 'max\_depth':}}}\\
+\\
+\\
+\normalsize{\textbf{\underline{max\_depth = 2:}}}\\
+\footnotesize{
+Training accuracy $\approx$ 79.48\%\\
+Testing accuracy $\approx$ 78.17\%\\
+}
+\\
+\normalsize{\textbf{\underline{max\_depth = 8:}}}\\
+\footnotesize{
+Training accuracy $\approx$ 93.35\%\\
+Testing accuracy $\approx$ 84.08\%\\
+}
+\\
+\normalsize{\textbf{\underline{max\_depth = 20:}}}\\
+\footnotesize{
+Training accuracy = 100\%\\
+Testing accuracy $\approx$ 81.58\%
+}
+\\
+\\
+\\
+\normalsize{\textbf{\underline{Choosing the best model:}}\\
+\\
+Given the training and testing accuracies of these models, the model with max\_depth = 8 is the best. This is evident as it has the highest testing accuracy.\\
+\\
+Testing accuracy is the most important measure here as it illustrates how well a given model reacts to unseen data. Training accuracy is trivial in comparison as this does not tell us whether our model has been overfitted to noise in the training data.\\
+\\
+Although the model where max\_depth = 20 has a perfect training accuracy (100\%) it has a worse testing accuracy than the max\_depth = 8 model which implies it must have been overfitted.
+}
 \end{answerbox}
 
 
