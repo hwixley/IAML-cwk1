@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.6)  13 OCT 2020 17:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.6)  13 OCT 2020 17:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2469,11 +2469,11 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 679.
+(hyperref)                removing `math shift' on input line 694.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 679.
+(hyperref)                removing `math shift' on input line 694.
 
 [20
 
@@ -2481,68 +2481,69 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 697.
+(hyperref)                removing `\\' on input line 712.
 
 [21
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 716.
+(hyperref)                removing `\\' on input line 731.
 
 
 AED: lastpage setting LastPage
 [22
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 735.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 735.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 750.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 750.
  (./Assignment_1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 735.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 735.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 750.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 750.
 Package rerunfilecheck Info: File `Assignment_1.out' has not changed.
 (rerunfilecheck)             Checksum: E38EE13468F590430B08C44E68845704;8507.
  ) 
 Here is how much of TeX's memory you used:
- 24170 strings out of 483183
- 488894 string characters out of 5966292
+ 24176 strings out of 483183
+ 488947 string characters out of 5966292
  779836 words of memory out of 5000000
- 38658 multiletter control sequences out of 15000+600000
- 553361 words of font info for 72 fonts, out of 8000000 for 9000
+ 38660 multiletter control sequences out of 15000+600000
+ 553698 words of font info for 73 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  67i,12n,105p,1004b,983s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.6
-00pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecit120
-0.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti
+ </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.6
+00pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm080
+0.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecit
 1200.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/e
-ctt1200.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/e
-c/ecti1095.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappe
-n/ec/ecrm1000.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jkna
-ppen/ec/ecrm0700.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecbx1000.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfou
-r/jknappen/ec/ecbx1440.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/lj
-four/jknappen/ec/ecrm1200.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk
-/ljfour/jknappen/ec/ecbx1200.600pk> </home/hwixley/.texlive2019/texmf-var/fonts
-/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/hwixley/.texlive2019/texmf-var/fo
-nts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </home/hwixley/.texlive2019/texmf-var
-/fonts/pk/ljfour/jknappen/ec/ecrm2074.600pk> </home/hwixley/.texlive2019/texmf-
-var/fonts/pk/ljfour/jknappen/ec/ecbx2074.600pk></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Assignment_1.pdf (22 pages, 410848 bytes).
+cti1200.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/e
+c/ectt1200.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappe
+n/ec/ecti1095.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jkna
+ppen/ec/ecrm1000.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/j
+knappen/ec/ecrm0700.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfou
+r/jknappen/ec/ecbx1000.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/lj
+four/jknappen/ec/ecbx1440.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk
+/ljfour/jknappen/ec/ecrm1200.600pk> </home/hwixley/.texlive2019/texmf-var/fonts
+/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/hwixley/.texlive2019/texmf-var/fo
+nts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/hwixley/.texlive2019/texmf-var
+/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </home/hwixley/.texlive2019/texmf-
+var/fonts/pk/ljfour/jknappen/ec/ecrm2074.600pk> </home/hwixley/.texlive2019/tex
+mf-var/fonts/pk/ljfour/jknappen/ec/ecbx2074.600pk></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on Assignment_1.pdf (22 pages, 412317 bytes).
 PDF statistics:
- 870 PDF objects out of 1000 (max. 8388607)
- 315 compressed objects within 4 object streams
- 51 named destinations out of 1000 (max. 500000)
+ 879 PDF objects out of 1000 (max. 8388607)
+ 322 compressed objects within 4 object streams
+ 54 named destinations out of 1000 (max. 500000)
  392 words of extra memory for PDF output out of 10000 (max. 10000000)
 
