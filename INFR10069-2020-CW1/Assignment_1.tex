@@ -540,8 +540,25 @@ What impact does smaller or larger values of this parameter have? Give one poten
 }
 
 
-\begin{answerbox}{10em}
-Your Answer Here
+\begin{answerbox}{32em}
+\large{\textbf{\underline{Impact of the 'max\_depth' parameter on Decision Tree}}}\\
+\large{\textbf{\underline{classifiers:}}}\\
+\\
+\normalsize{
+This 'max\_depth' parameter denotes the maximum allowed depth of the Decision Tree. If no value is given, then nodes will be expanded until all leaves are pure or until all leaves contain less samples than the specified 'min\_samples\_split' parameter (this denotes the minimum number of samples required to split an internal node) which is greater than or equal to 2.\\
+\\
+The larger the depth of the Decision Tree thereby implies a larger amount of splits to be computed.\\
+\\
+\textbf{\underline{Problem for small values of max\_depth:}}
+\begin{enumerate}
+    \item Smaller tree depths ultimately denote less splits on the samples, and are thereby more likely to be less accurate/underfitted to our data.\\
+\end{enumerate}
+\textbf{\underline{Problem for large values of max\_depth:}}
+\begin{enumerate}
+    \item Larger tree depths ultimately denote more splits on the samples and thereby more computational power.
+    \item If our tree depth is too large and 'min\_samples\_split' is too small we may overfit to our data as this may create singleton subsets.
+\end{enumerate}
+}
 \end{answerbox}
 
 
