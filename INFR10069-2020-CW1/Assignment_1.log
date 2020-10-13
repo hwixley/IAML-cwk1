@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.6)  13 OCT 2020 12:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.6)  13 OCT 2020 13:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2269,13 +2269,68 @@ Underfull \hbox (badness 10000) in paragraph at lines 395--401
 
 [12
 
- <./images/q2d-graph.png>] [13
+ <./images/q2d-graph.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 437--464
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 437--464
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 437--464
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 437--464
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 437--464
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 437--464
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 437--464
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 437--464
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 437--464
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 437--464
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 437--464
+
+ []
+
+[13
 
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 453.
+(hyperref)                removing `\\' on input line 479.
 
 [14
 
@@ -2286,14 +2341,14 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 508.
+(hyperref)                removing `\\' on input line 534.
 
 [17
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 526.
+(hyperref)                removing `\\' on input line 552.
 
 [18
 
@@ -2302,11 +2357,11 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 579.
+(hyperref)                removing `math shift' on input line 605.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 579.
+(hyperref)                removing `math shift' on input line 605.
 
 [20
 
@@ -2314,25 +2369,25 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 597.
+(hyperref)                removing `\\' on input line 623.
 
 [21
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 616.
+(hyperref)                removing `\\' on input line 642.
 
 
 AED: lastpage setting LastPage
 [22
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 635.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 635.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 661.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 661.
  (./Assignment_1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 635.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 635.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 661.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 661.
 Package rerunfilecheck Info: File `Assignment_1.out' has not changed.
 (rerunfilecheck)             Checksum: E38EE13468F590430B08C44E68845704;8507.
  ) 
@@ -2372,9 +2427,9 @@ re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Assignment_1.pdf (22 pages, 380474 bytes).
+Output written on Assignment_1.pdf (22 pages, 383644 bytes).
 PDF statistics:
- 821 PDF objects out of 1000 (max. 8388607)
+ 829 PDF objects out of 1000 (max. 8388607)
  311 compressed objects within 4 object streams
  48 named destinations out of 1000 (max. 500000)
  387 words of extra memory for PDF output out of 10000 (max. 10000000)
