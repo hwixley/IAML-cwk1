@@ -515,8 +515,16 @@ What is the advantage, if any, of using this measure compared to entropy?
 }
 
 
-\begin{answerbox}{10em}
-Your Answer Here
+\begin{answerbox}{18em}
+\large{\textbf{\underline{Decision Tree split quality evaluation measures:}}}\\
+\normalsize{
+\\
+By default the \emph{DecisionTreeClassifier} in sklearn uses the Gini Impurity metric to measure the purity of a node for classification.\\
+\\
+The Gini Impurity and Entropy metrics both measure the impurity of a node, and are thereby used as criterion for calculating information gain. Decision Tree algorithms use this information gain to choose which node to split on.\\
+\\
+The internal working of both these measures are very similar, the only real advantage of using Gini Impurity rather than Entropy is that it requires less computational power. This difference in computational power can make a huge difference in computational time when working with big decision trees.
+}
 \end{answerbox}
 
 
