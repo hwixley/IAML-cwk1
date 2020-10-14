@@ -626,7 +626,7 @@ Does the one with the highest importance make sense in the context of this class
 }
 
 
-\begin{answerbox}{15em}
+\begin{answerbox}{16em}
 \large{\textbf{\underline{Top 3 most important attributes according to Gini}}}\\
 \large{\textbf{\underline{importance:}}}
 \normalsize{
@@ -736,7 +736,7 @@ Does the model with the best AUC also have the best accuracy? If not, why not?\\
 }
 
 
-\begin{answerbox}{26em}
+\begin{answerbox}{27em}
 \large{\textbf{\underline{AUC evaluations of our models:}}}\\
 \\
 \normalsize{\textbf{alg\_1 $\approx$ 73.21\%}}\\
@@ -769,8 +769,16 @@ Is there anything that can be done to improve the performance of \texttt{alg\_3}
 }
 
 
-\begin{answerbox}{35em}
-Your Answer Here
+\begin{answerbox}{43em}
+\includegraphics [width=1\textwidth]{images/q4c-graph.png}\\
+\\
+\large{\textbf{\underline{Improving the performance of alg\_3 without retraining:}}}\\
+\\
+\normalsize{
+As shown by the graph above, the ROC curve for alg\_3 acts in the exact opposite way as we would like it to (it misclassifies most of the data). An easy way to improve the performance of this model dramatically would be to flip it's classification output (ie. if the model classifies a given data instance as class 1 then we will classify it as class 0).\\\
+\\
+This would turn the very poor accuracy of alg\_3 into very good accuracy, and in effect mirror it's ROC curve along the y=x diagonal (bringing it very close to perfect performance).
+}
 \end{answerbox}
 
 
