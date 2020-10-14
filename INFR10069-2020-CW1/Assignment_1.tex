@@ -736,8 +736,28 @@ Does the model with the best AUC also have the best accuracy? If not, why not?\\
 }
 
 
-\begin{answerbox}{15em}
-Your Answer Here
+\begin{answerbox}{29em}
+\large{\textbf{\underline{AUC evaluations of our models:}}}\\
+\\
+\\
+\normalsize{\textbf{alg\_1 $\approx$ 67.99\%}}\\
+\footnotesize{Where TPR $\approx$ 78.71\% \& FPR $\approx$ 42.73\%}\\
+\\
+\normalsize{\textbf{alg\_2 $\approx$ 59.97\%}}\\
+\footnotesize{Where TPR $\approx$ 68.31\% \& FPR $\approx$ 48.37\%}\\
+\\
+\normalsize{\textbf{alg\_3 $\approx$ 20.11\%}}\\
+\footnotesize{Where TPR = 0\% \& FPR $\approx$ 59.77\%}\\
+\\
+\normalsize{\textbf{alg\_4 $\approx$ 57.96\%}}\\
+\footnotesize{Where TPR $\approx$ 100\% \& FPR $\approx$ 84.09\%}\\
+\\
+\\
+\normalsize{
+So yes, \textbf{alg\_1} has both the best accuracy and the best AUC throughout all the models.\\
+\\
+Although alg\_4 has a perfect TPR it has a very poor FPR (almost double that of alg\_1) which greatly brings down it's AUC score, whereas, alg\_1 has the best FPR and the second best TPR.
+}
 \end{answerbox}
 
 
