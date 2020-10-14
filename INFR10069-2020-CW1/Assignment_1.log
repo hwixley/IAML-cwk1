@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.6)  14 OCT 2020 17:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.6)  14 OCT 2020 18:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2519,42 +2519,27 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 736.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 740--761
+Underfull \hbox (badness 10000) in paragraph at lines 740--755
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 740--761
+Underfull \hbox (badness 10000) in paragraph at lines 740--755
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 740--761
+Underfull \hbox (badness 10000) in paragraph at lines 740--755
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 740--761
+Underfull \hbox (badness 10000) in paragraph at lines 740--755
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 740--761
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 740--761
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 740--761
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 740--761
+Underfull \hbox (badness 10000) in paragraph at lines 740--755
 
  []
 
@@ -2563,18 +2548,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 740--761
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 775.
+(hyperref)                removing `\\' on input line 769.
 
 
 AED: lastpage setting LastPage
 [22
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 794.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 794.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 788.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 788.
  (./Assignment_1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 794.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 794.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 788.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 788.
 Package rerunfilecheck Info: File `Assignment_1.out' has not changed.
 (rerunfilecheck)             Checksum: E38EE13468F590430B08C44E68845704;8507.
  ) 
@@ -2615,9 +2600,9 @@ share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Assignment_1.pdf (22 pages, 420420 bytes).
+Output written on Assignment_1.pdf (22 pages, 419322 bytes).
 PDF statistics:
- 895 PDF objects out of 1000 (max. 8388607)
+ 891 PDF objects out of 1000 (max. 8388607)
  322 compressed objects within 4 object streams
  54 named destinations out of 1000 (max. 500000)
  392 words of extra memory for PDF output out of 10000 (max. 10000000)

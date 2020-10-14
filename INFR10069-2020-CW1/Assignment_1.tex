@@ -736,27 +736,21 @@ Does the model with the best AUC also have the best accuracy? If not, why not?\\
 }
 
 
-\begin{answerbox}{29em}
+\begin{answerbox}{26em}
 \large{\textbf{\underline{AUC evaluations of our models:}}}\\
 \\
-\\
-\normalsize{\textbf{alg\_1 $\approx$ 67.99\%}}\\
-\footnotesize{Where TPR $\approx$ 78.71\% \& FPR $\approx$ 42.73\%}\\
-\\
-\normalsize{\textbf{alg\_2 $\approx$ 59.97\%}}\\
-\footnotesize{Where TPR $\approx$ 68.31\% \& FPR $\approx$ 48.37\%}\\
-\\
-\normalsize{\textbf{alg\_3 $\approx$ 20.11\%}}\\
-\footnotesize{Where TPR = 0\% \& FPR $\approx$ 59.77\%}\\
-\\
-\normalsize{\textbf{alg\_4 $\approx$ 57.96\%}}\\
-\footnotesize{Where TPR $\approx$ 100\% \& FPR $\approx$ 84.09\%}\\
+\normalsize{\textbf{alg\_1 $\approx$ 73.21\%}}\\
+\normalsize{\textbf{alg\_2 $\approx$ 63.16\%}}\\
+\normalsize{\textbf{alg\_3 $\approx$ 6.4\%}}\\
+\normalsize{\textbf{alg\_4 $\approx$ 84.74\%}}\\
 \\
 \\
 \normalsize{
-So yes, \textbf{alg\_1} has both the best accuracy and the best AUC throughout all the models.\\
+No, \textbf{alg\_1} is the model with the best classification accuracy and \textbf{alg\_4} is the model with the best AUC.\\
 \\
-Although alg\_4 has a perfect TPR it has a very poor FPR (almost double that of alg\_1) which greatly brings down it's AUC score, whereas, alg\_1 has the best FPR and the second best TPR.
+As discussed in the previous question (Q4a) the classification accuracy measure can be very misleading when classes are imbalanced. This is in contrast to the AUC measure which avoids this bias when classes are imbalanced by using the TPR and FPR measures of the model.\\ 
+\\
+Upon inspection we can see that class 1 makes up 20.2\% of the data instances in this dataset. Given this we can deduce that the models with the best classification accuracy and the best AUC were different due to the class imbalance in this dataset.
 }
 \end{answerbox}
 
