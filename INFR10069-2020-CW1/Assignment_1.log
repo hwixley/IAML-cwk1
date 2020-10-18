@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.6)  14 OCT 2020 18:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.6)  18 OCT 2020 10:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2411,47 +2411,22 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 577.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 581--613
+Underfull \hbox (badness 10000) in paragraph at lines 581--585
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 581--613
+Underfull \hbox (badness 10000) in paragraph at lines 613--621
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 581--613
+Underfull \hbox (badness 10000) in paragraph at lines 613--621
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 581--613
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 581--613
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 581--613
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 581--613
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 581--613
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 581--613
+Underfull \hbox (badness 10000) in paragraph at lines 613--621
 
  []
 
@@ -2460,7 +2435,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 581--613
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 626.
+(hyperref)                removing `\\' on input line 634.
 
 [18
 
@@ -2469,44 +2444,44 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 696.
+(hyperref)                removing `math shift' on input line 704.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 696.
+(hyperref)                removing `math shift' on input line 704.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 700--723
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 700--723
+Underfull \hbox (badness 10000) in paragraph at lines 708--731
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 700--723
+Underfull \hbox (badness 10000) in paragraph at lines 708--731
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 700--723
+Underfull \hbox (badness 10000) in paragraph at lines 708--731
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 700--723
+Underfull \hbox (badness 10000) in paragraph at lines 708--731
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 700--723
+Underfull \hbox (badness 10000) in paragraph at lines 708--731
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 700--723
+Underfull \hbox (badness 10000) in paragraph at lines 708--731
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 708--731
 
  []
 
@@ -2516,30 +2491,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 700--723
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 736.
+(hyperref)                removing `\\' on input line 744.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 740--755
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 740--755
+Underfull \hbox (badness 10000) in paragraph at lines 748--763
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 740--755
+Underfull \hbox (badness 10000) in paragraph at lines 748--763
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 740--755
+Underfull \hbox (badness 10000) in paragraph at lines 748--763
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 740--755
+Underfull \hbox (badness 10000) in paragraph at lines 748--763
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 748--763
 
  []
 
@@ -2548,25 +2523,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 740--755
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 769.
+(hyperref)                removing `\\' on input line 777.
 
 <images/q4c-graph.png, id=290, 390.45876pt x 279.0425pt>
 File: images/q4c-graph.png Graphic file (type png)
 <use images/q4c-graph.png>
-Package pdftex.def Info: images/q4c-graph.png  used on input line 773.
+Package pdftex.def Info: images/q4c-graph.png  used on input line 781.
 (pdftex.def)             Requested size: 423.94617pt x 302.9879pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 773--782
+Underfull \hbox (badness 10000) in paragraph at lines 781--790
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 773--782
+Underfull \hbox (badness 10000) in paragraph at lines 781--790
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 773--782
+Underfull \hbox (badness 10000) in paragraph at lines 781--790
 
  []
 
@@ -2575,19 +2550,19 @@ AED: lastpage setting LastPage
 [22
 
  <./images/q4c-graph.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 796.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 796.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 804.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 804.
  (./Assignment_1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 796.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 796.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 804.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 804.
 Package rerunfilecheck Info: File `Assignment_1.out' has not changed.
 (rerunfilecheck)             Checksum: E38EE13468F590430B08C44E68845704;8507.
  ) 
 Here is how much of TeX's memory you used:
- 24182 strings out of 483183
- 489079 string characters out of 5966292
+ 24183 strings out of 483183
+ 489096 string characters out of 5966292
  779836 words of memory out of 5000000
- 38665 multiletter control sequences out of 15000+600000
+ 38666 multiletter control sequences out of 15000+600000
  553698 words of font info for 73 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  67i,12n,105p,1004b,983s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2620,9 +2595,9 @@ share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Assignment_1.pdf (22 pages, 438414 bytes).
+Output written on Assignment_1.pdf (22 pages, 437018 bytes).
 PDF statistics:
- 893 PDF objects out of 1000 (max. 8388607)
+ 888 PDF objects out of 1000 (max. 8388607)
  322 compressed objects within 4 object streams
  54 named destinations out of 1000 (max. 500000)
  397 words of extra memory for PDF output out of 10000 (max. 10000000)

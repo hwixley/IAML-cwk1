@@ -580,28 +580,36 @@ You can set the maximum depth of the decision tree using the \texttt{max\_depth}
 \begin{answerbox}{39em}
 \large{\textbf{\underline{Evaluating the accuracy of Decision Tree classifiers for}}}\\
 \large{\textbf{\underline{different values of 'max\_depth':}}}\\
-\\
-\\
-\normalsize{\textbf{max\_depth = 2:}}\\
-\footnotesize{
-Training accuracy $\approx$ 79.48\%\\
-Testing accuracy $\approx$ 78.17\%\\
+\definecolor{OliveGreen}{rgb}{0,0.6,0.1}
+\normalsize{
+\begin{center}
+\begin{tabular}{ |c|c|c| }
+\hline
+\textbf{max\_depth} & \textbf{Train Accuracy} & \textbf{Test Accuracy} \\ \hline
+2 & 79.48\% & 78.17\% \\
+8 & 93.35\% & \textbf{\textcolor{OliveGreen}{84.08\%}} \\
+20 & \textbf{\textcolor{OliveGreen}{100\%}} & 81.58\% \\
+\hline
+\end{tabular}
+\end{center}
 }
-\\
-\normalsize{\textbf{max\_depth = 8:}}\\
-\footnotesize{
-Training accuracy $\approx$ 93.35\%\\
-Testing accuracy $\approx$ 84.08\%\\
-}
-\\
-\normalsize{\textbf{max\_depth = 20:}}\\
-\footnotesize{
-Training accuracy = 100\%\\
-Testing accuracy $\approx$ 81.58\%
-}
-\\
-\\
-\\
+%\normalsize{\textbf{max\_depth = 2:}}\\
+%\footnotesize{
+%Training accuracy $\approx$ 79.48\%\\
+%Testing accuracy $\approx$ 78.17\%\\
+%}
+%\\
+%\normalsize{\textbf{max\_depth = 8:}}\\
+%\footnotesize{
+%Training accuracy $\approx$ 93.35\%\\
+%Testing accuracy $\approx$ 84.08\%\\
+%}
+%\\
+%\normalsize{\textbf{max\_depth = 20:}}\\
+%\footnotesize{
+%Training accuracy = 100\%\\
+%Testing accuracy $\approx$ 81.58\%
+%}
 \normalsize{\textbf{\underline{Choosing the best model:}}\\
 \\
 Given the training and testing accuracies of these models, the model with \textbf{max\_depth = 8} is the best. This is evident as it has the highest testing accuracy.\\
