@@ -222,7 +222,7 @@ Write out the expression for MSE and list one of its limitations. \\
 \large{\textbf{\underline{Limitations of the Mean Squared Error (MSE) metric}}}\\
 \\
 \normalsize{
-$MSE = \sqrt{\frac{1}{n}\sum_{i=1}^{n}(\hat{y_i}-y_i)^2}$\\
+$MSE = \frac{1}{n}\sum_{i=1}^{n}(\hat{y_i}-y_i)^2$\\
 \\
 One of the disadvantages of the MSE metric is that it is very sensitive to outliers. This is evident in the equation as shown above, where for each value of x\textsubscript{i} the error value (difference in the predicted and actual value) of y\textsubscript{i} is squared and the average error value is calculated. This squaring of error values ultimately magnifies the large errors (caused by outliers) and minimizes the small errors. Inevitably meaning a single outlier in our dataset could skew our analysis greatly, due to the fact that we could get the same MSE for a predictor with one large error as a predictor with lots of small errors.\\
 \\
@@ -244,23 +244,19 @@ Comment on any differences in their performance.
 }
 
 
-\begin{answerbox}{22em}
+\begin{answerbox}{20em}
 \large{\textbf{\underline{Implementation evaluation using MSE}}}\\
 \\
-\\
+\definecolor{OliveGreen}{rgb}{0,0.6,0.1}
 \normalsize{
-$MSE\textsubscript{sklearn} \approx 30.985$\\
-%MAE = 4.246143979155163\\
-%$R^{2}$ score = 0.9277934754398822\\
+$\mathbf{MSE\textsubscript{sklearn} \approx 30.985}$\\
+$\mathbf{MSE\textsubscript{closed-form} \approx \textcolor{OliveGreen}{30.985}}$\\
 \\
-$MSE\textsubscript{closed-form} \approx 30.985$\\
-%MAE = 4.24614397915516\\
-%$R^{2}$ score = 0.9277934754398822
+\emph{Such that:}\\
+$\mathbf{MSE\textsubscript{sklearn} \approx MSE\textsubscript{closed-form}   +   1.421 * 10^{-14}}$\\
 \\
 \\
 \textbf{\underline{Differences in performance:}}\\
-\\
-$MSE\textsubscript{sklearn} \approx MSE\textsubscript{closed-form}   +   1.421 * 10^{-14}$\\
 \\
 The MSEs of these implementations were incredibly close. Given that both of these models were calculated on the exact same dataset, we can see that the solution of our \textbf{closed-form} implementation was a tiny bit more accurate than that of our sklearn implementation.
 }
@@ -290,7 +286,7 @@ This plot seems to take the form of a parabola, where the MSE increases exponent
 \\
 $\mathbf{MSE_{min}} \approx 32.481$ ,  where $\mathbf{w_1} \approx 1.354$\\
 \\
-This value of $\mathbf{w_1}$ is expected. We knew it had to be less than that of the optimum found in previous implementations (where $\mathbf{w_1} \approx 1.441$). This is due to the fact that we have set $\mathbf{w_0} = 20$, which is evidently greater than its optimum (where $\mathbf{w_0} \approx 17.898$).
+This value of $\mathbf{w_1}$ is expected given that $\mathbf{w_1} \propto \frac{1}{\mathbf{w_0}}$. Thereby due to the fact that we have increased the value of $\mathbf{w_0}$ from it's optimum found in previous implementations (where $17.898 \to 20$), we knew $\mathbf{w_1}$ had to be less than that of it's optimum found in previous implementations (where $1.441 \to 1.354$).
 \end{answerbox}
 
 
@@ -362,12 +358,13 @@ Based on these results, which model would you choose?}
 \begin{answerbox}{23em}
 \large{\textbf{\underline{Comparing the M=3 and M=4 polynomial regression models}}}\\
 \\
+\definecolor{OliveGreen}{rgb}{0,0.6,0.1}
 \normalsize{
-$MSE_{M=3} \approx 2.745$\\
-$MSE_{M=4} \approx 2.739$\\
+$\mathbf{MSE_{M=3} \approx 2.745}$\\
+$\mathbf{MSE_{M=4} \approx \textcolor{OliveGreen}{2.739}}$\\
 \\
-Such that:\\
-$MSE_{M=3} \approx MSE_{M=4} + 5.846 * 10^{-3}$\\
+\emph{Such that:}\\
+$\mathbf{MSE_{M=3} \approx MSE_{M=4} + 5.846 * 10^{-3}}$\\
 \\
 It is therefore evident that the M=4 model performs slightly better than the M=3 model on this given dataset. However we must be wary of overfitting these models to our training data. So before deciding on which model to use it would be useful to test and compare the performance of these models on a large unseen dataset.\\
 \\
@@ -391,15 +388,16 @@ Comment on the impact of larger or smaller values of $\alpha$.
 }
 
 
-\begin{answerbox}{44em}
+\begin{answerbox}{47.5em}
 \includegraphics [width=1\textwidth]{images/q2d-graph.png}\\
-\\
 \large{\textbf{\underline{Impact of $\mathbf{\alpha}$:}}}\\
 \\
 \normalsize{
 As illustrated on this figure it is evident that the RBF kernel with $\mathbf{\alpha} = 100$ creates the best classifier due to it's smooth model and close fit to all the data points.\\
 \\
-The RBF kernel with $\mathbf{\alpha} = 0.2$ seems to overfit the data in a dramatic way with a very "spikey" model that does not fit well to a large majority of the data points. In contrast, the RBF kernel with $\mathbf{\alpha} = 1000$ seems to underfit the data with a relatively straight model that does not fit well to a smaller majority of the data points.\\
+The RBF kernel with $\mathbf{\alpha} = 0.2$ seems to overfit the data in a dramatic way with a very "spikey" model that does not fit well to a large majority of the data points. In contrast, the RBF kernel with $\mathbf{\alpha} = 1000$ seems to underfit the data with a relatively straight model that also does not fit well to a decent majority of the data points, this model still seems more reliable than that of $\mathbf{\alpha} = 0.2$.\\
+\\
+We can deduce that the optimum value of $\alpha$ is very close to 100. Any increase in $\alpha$ from this optimum results in underfitting and any decrease in $\alpha$ from this optimum results in overfitting. 
 }
 \end{answerbox}
 
@@ -556,7 +554,7 @@ The larger the depth of the Decision Tree thereby implies a larger amount of spl
 \textbf{\underline{Problems for large values of max\_depth:}}
 \begin{enumerate}
     \item Larger tree depths ultimately denote more splits on the samples and thereby more computational power.
-    \item If our tree depth is too large and 'min\_samples\_split' is too small we may overfit to our data as this may create singleton subsets.
+    \item If our tree depth is too large and 'min\_samples\_split' is too small we may overfit to noise in our data as this may create small/singleton subsets.
 \end{enumerate}
 }
 \end{answerbox}
@@ -577,7 +575,7 @@ You can set the maximum depth of the decision tree using the \texttt{max\_depth}
 }
 
 
-\begin{answerbox}{39em}
+\begin{answerbox}{28em}
 \large{\textbf{\underline{Evaluating the accuracy of Decision Tree classifiers for}}}\\
 \large{\textbf{\underline{different values of 'max\_depth':}}}\\
 \definecolor{OliveGreen}{rgb}{0,0.6,0.1}
@@ -593,28 +591,12 @@ You can set the maximum depth of the decision tree using the \texttt{max\_depth}
 \end{tabular}
 \end{center}
 }
-%\normalsize{\textbf{max\_depth = 2:}}\\
-%\footnotesize{
-%Training accuracy $\approx$ 79.48\%\\
-%Testing accuracy $\approx$ 78.17\%\\
-%}
-%\\
-%\normalsize{\textbf{max\_depth = 8:}}\\
-%\footnotesize{
-%Training accuracy $\approx$ 93.35\%\\
-%Testing accuracy $\approx$ 84.08\%\\
-%}
-%\\
-%\normalsize{\textbf{max\_depth = 20:}}\\
-%\footnotesize{
-%Training accuracy = 100\%\\
-%Testing accuracy $\approx$ 81.58\%
-%}
+
 \normalsize{\textbf{\underline{Choosing the best model:}}\\
 \\
 Given the training and testing accuracies of these models, the model with \textbf{max\_depth = 8} is the best. This is evident as it has the highest testing accuracy.\\
 \\
-Testing accuracy is the most important measure here as it illustrates how well a given model reacts to unseen data. Training accuracy is trivial in comparison as this does not tell us whether our model has been overfitted to noise in the training data.\\
+Testing accuracy is the most important measure here as it illustrates how well a given model reacts to unseen data. Training accuracy is almost trivial in comparison as this does not tell us whether our model has been overfitted to noise in the training data.\\
 \\
 Although the model where max\_depth = 20 has a perfect training accuracy (100\%) it has a worse testing accuracy than the max\_depth = 8 model which implies it must have been overfitted.
 }
@@ -662,12 +644,12 @@ Are there any limitations of the current choice of input attributes used i.e. 2D
 }
 
 
-\begin{answerbox}{10em}
+\begin{answerbox}{11em}
 \large{\textbf{\underline{Limitations of the current choice of input attributes:}}}
 \normalsize{
 \begin{itemize}
     \item They are not very detailed (limited number of 2D point location attributes) and therefore do not account for other features associated with smiling such as puffy cheeks or dimples.
-    \item They do not account for faces pointed in different angles.
+    \item They would not be very good for identifying smiles on faces pointed in different angles.
 \end{itemize}
 }
 \end{answerbox}
@@ -707,17 +689,18 @@ What, if any, are the limitations of the above method for computing accuracy and
 \begin{answerbox}{32em}
 \large{\textbf{\underline{Classification accuracy of our 4 models:}}}\\
 \\
+\definecolor{OliveGreen}{rgb}{0,0.6,0.1}
 \normalsize{
 $\mathbf{Accuracy = \frac{TP+TN}{TP+TN+FP+FN}}$\\
 \\
-\textbf{alg\_1 = 61.6\%}
+\\
+\textbf{alg\_1 = \textcolor{OliveGreen}{61.6\%}}
 \\
 \textbf{alg\_2 = 55\%}
 \\
 \textbf{alg\_3 = 32.1\%}
 \\
 \textbf{alg\_4 = 32.9\%}
-\\
 \\
 \\
 According to this metric we can see that \textbf{alg\_1} is the best model.\\
