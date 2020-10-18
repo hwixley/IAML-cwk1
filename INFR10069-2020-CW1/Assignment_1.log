@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.6)  18 OCT 2020 12:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.6)  18 OCT 2020 12:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2241,7 +2241,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 File: images/q2d-graph.png Graphic file (type png)
 <use images/q2d-graph.png>
 Package pdftex.def Info: images/q2d-graph.png  used on input line 392.
-(pdftex.def)             Requested size: 423.94617pt x 315.2749pt.
+(pdftex.def)             Requested size: 381.54895pt x 283.74516pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 392--402
 
@@ -2259,11 +2259,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 392--402
 
 [12
 
-]
-Overfull \vbox (24.25845pt too high) has occurred while \output is active []
-
-
-[13 <./images/q2d-graph.png>]
+ <./images/q2d-graph.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 458--458
 
  []
@@ -2318,7 +2314,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 438--474
 
  []
 
-[14
+[13
 
 
 ]
@@ -2326,7 +2322,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 438--474
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 489.
 
-<images/q3b-graph.png, id=247, 399.4925pt x 294.09875pt>
+<images/q3b-graph.png, id=243, 399.4925pt x 294.09875pt>
 File: images/q3b-graph.png Graphic file (type png)
 <use images/q3b-graph.png>
 Package pdftex.def Info: images/q3b-graph.png  used on input line 493.
@@ -2341,7 +2337,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 493--500
 
  []
 
-[15
+[14
 
  <./images/q3b-graph.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 517--526
@@ -2364,7 +2360,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 517--526
 
  []
 
-[16
+[15
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 542--551
@@ -2392,7 +2388,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 552--553
 
  []
 
-[17
+[16
 
 ]
 
@@ -2419,16 +2415,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 595--603
 
  []
 
-[18
+[17
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 616.
 
-[19
+[18
 
-] [20
+] [19
 
 ]
 
@@ -2474,7 +2470,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 690--714
 
  []
 
-[21
+[20
 
 
 ]
@@ -2507,14 +2503,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 731--747
 
  []
 
-[22
+[21
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 761.
 
-<images/q4c-graph.png, id=295, 390.45876pt x 279.0425pt>
+<images/q4c-graph.png, id=291, 390.45876pt x 279.0425pt>
 File: images/q4c-graph.png Graphic file (type png)
 <use images/q4c-graph.png>
 Package pdftex.def Info: images/q4c-graph.png  used on input line 765.
@@ -2536,7 +2532,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 765--774
 
 
 AED: lastpage setting LastPage
-[23
+[22
 
  <./images/q4c-graph.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 788.
@@ -2546,10 +2542,14 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 788.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 788.
 Package rerunfilecheck Info: File `Assignment_1.out' has not changed.
 (rerunfilecheck)             Checksum: E38EE13468F590430B08C44E68845704;8507.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 24183 strings out of 483183
- 489084 string characters out of 5966292
+ 24182 strings out of 483183
+ 489077 string characters out of 5966292
  779836 words of memory out of 5000000
  38665 multiletter control sequences out of 15000+600000
  553698 words of font info for 73 fonts, out of 8000000 for 9000
@@ -2585,10 +2585,10 @@ exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Assignment_1.pdf (23 pages, 447293 bytes).
+Output written on Assignment_1.pdf (22 pages, 446927 bytes).
 PDF statistics:
- 897 PDF objects out of 1000 (max. 8388607)
- 329 compressed objects within 4 object streams
- 55 named destinations out of 1000 (max. 500000)
+ 892 PDF objects out of 1000 (max. 8388607)
+ 325 compressed objects within 4 object streams
+ 54 named destinations out of 1000 (max. 500000)
  397 words of extra memory for PDF output out of 10000 (max. 10000000)
 
